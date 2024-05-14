@@ -1,47 +1,58 @@
-.Maintext {
-    color: white;
-    text-align: center;
-}
 
-* {
-    margin: auto;
-}
-
-h1 {
-    color: white;
-}
-
-section {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: radial-gradient(#333, #000);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section h2{
-    font-size: 8rem;
-}
-
-section .set {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    pointer-events: none; 
-}
-
-section .set div {
-    position: absolute;
-    display: block;
-}
-
-.calligraffitti-regular {
-    font-family: "Calligraffitti", cursive;
-    font-weight: 400;
-    font-style: normal;
+body {
+    font-family: Arial, sans-serif;
   }
+  
+  header {
+    padding: 20px ;
+  }
+  
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 2.5rem;
+  }
+  
+  .home-section {
+    background-color: red;
+    color: white;
+    padding: 100px 0;
+  }
+  
+  .about-section,
+  .works-section,
+  .contact-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-section {
+    color: black;
+  }
+  
+  footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    .h3 {
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    img {
+      border: black;
+    }
+
+    .col{
+      border: black;
+    }
